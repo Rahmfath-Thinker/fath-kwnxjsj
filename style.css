@@ -291,3 +291,6 @@ footer{
 
   cursor:pointer;
 }
+a, div, button {
+    -webkit-tap-highlight-color: transparent;
+}
