@@ -294,3 +294,12 @@ footer{
 a, div, button {
     -webkit-tap-highlight-color: transparent;
 }
+button {
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+button:focus,
+button:active {
+    outline: none;
+}
