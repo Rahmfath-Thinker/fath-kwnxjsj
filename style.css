@@ -32,7 +32,18 @@ body{
 body{
   background-image:url("FurinaPure.jpg");
 }
+.bg {
+    position: fixed;
+    inset: 0;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    z-index: -1;
 
+    /* supaya pinggir blur gak terlihat */
+    transform: scale(1.1);
+}
 /* ========================= */
 
 
